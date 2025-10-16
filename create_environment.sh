@@ -2,7 +2,7 @@
 #creating submission reinder apps for students
 
 #ask for the user input name to create dir
-read -p "Enter your name:" name
+read -p "Enter your name: " name
 mkdir -p submission_reminder_$name
 
 appdir="submission_reminder_$name"
